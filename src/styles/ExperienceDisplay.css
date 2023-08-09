@@ -66,15 +66,12 @@ li {
 }
 
 @media only screen and (max-width: 700px) {
-    .project img {
-      width: 400px;
-    }
 
-    .experience {
+    .responsibilities {
         width: 90%;
     }
 
-    .experience p {
+    .responsibilities p {
         font-size: 25px;
     }
 }
