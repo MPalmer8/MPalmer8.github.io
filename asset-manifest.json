@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06801488.css",
+    "main.js": "/static/js/main.0b98ec92.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/musiclesson.PNG": "/static/media/musiclesson.08a8488c43a392a895a0.PNG",
+    "static/media/lush.PNG": "/static/media/lush.f0c5e782f1adcccd44df.PNG",
+    "static/media/predatorprey.PNG": "/static/media/predatorprey.a03ba0e73dbe5ada19e0.PNG",
+    "static/media/AirBnB.PNG": "/static/media/AirBnB.5fdbfec9f3b15bfa5028.PNG",
+    "static/media/greggor.PNG": "/static/media/greggor.fccda2af49f190fd1968.PNG",
+    "static/media/KCL.jpg": "/static/media/KCL.245abb296180f12e250b.jpg",
+    "static/media/leytonstone.jpg": "/static/media/leytonstone.5643a4b76fc8f054a5ac.jpg",
+    "static/media/Barclays.jpg": "/static/media/Barclays.285c4a9f7234870e11a6.jpg",
+    "static/media/joke.png": "/static/media/joke.dfd5a8fd8e22721b803a.png",
+    "static/media/weather.png": "/static/media/weather.17b383c175c74122280b.png",
+    "static/media/LSC.png": "/static/media/LSC.3fe2a71121d4d57d3863.png",
+    "index.html": "/index.html",
+    "main.06801488.css.map": "/static/css/main.06801488.css.map",
+    "main.0b98ec92.js.map": "/static/js/main.0b98ec92.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06801488.css",
+    "static/js/main.0b98ec92.js"
+  ]
+}
