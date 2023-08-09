@@ -1,0 +1,80 @@
+.experience {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.experience h1 {
+    margin-top: 50px;
+    color: #3e497a;
+    font-size: 35px;
+    text-align: center;
+}
+.experience img {
+    width: 300px;
+    border-radius: 10px;
+}
+  
+.experience p {
+    font-size: 30px;
+    color: #3e497a;
+    text-align: center;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.time p {
+    font-size: 30px;
+    color: #3e497a;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.responsibilities {
+    width: 70%;
+}
+
+li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+  
+.experience svg {
+    font-size: 60px;
+    color: #3e497a;
+}
+
+.icondisplay {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+}
+
+.icondisplay p {
+    font-size: 15px;
+    color:#3e497a90;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .project img {
+      width: 400px;
+    }
+
+    .experience {
+        width: 90%;
+    }
+
+    .experience p {
+        font-size: 25px;
+    }
+}

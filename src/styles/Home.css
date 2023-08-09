@@ -1,0 +1,185 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #179BAC;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1BB6CA;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  color: #e9d35b;
+  height: 50px;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #179BAC;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+.aboutme {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutmebox {
+  float: left;
+  width: 700px;
+  margin-left: 10px;
+  padding: 15px;
+
+  background: rgba(27, 182, 202, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(27, 182, 202, 0.5);
+}
+
+.aboutmebox p {
+  font-size: 20px;
+}
+
+.skillsbox {
+  float: left;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 15px;
+
+  background: rgba(27, 182, 202, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(27, 182, 202, 0.5);
+}
+
+.skillsbox p {
+  font-size: 20px;
+}
+
+.skillsbox li {
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 1240px) {
+  .name {
+    margin-bottom: 150px;
+  }
+  .about .prompt {
+    width: 80%;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 647px) {
+  .name{
+    margin-bottom: 250px;
+  }
+  .about .prompt {
+    width: 80%;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .name{
+    margin-bottom: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h1 {
+    font-size: 50px;
+  }
+
+  .aboutme h2 {
+    font-size: 40px;
+
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .aboutme {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutmebox {
+    margin-bottom: 15px;
+  }
+
+  .skillsbox {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  .aboutmebox {
+    width: 350px;
+  }
+
+}

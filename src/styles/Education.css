@@ -1,0 +1,73 @@
+.educations {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.educations .educationTitle {
+  text-align: center;
+  color: #179BAC;
+  font-weight: bolder;
+}
+
+.educationList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+/* MENU ITEM STYLING */
+
+.educationItem {
+  border-radius: 15px;
+  width: 300px;
+  height: 450px;
+  margin: 40px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.educationItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.educationItem .bgImage {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.educationItem .EducationMain {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .educationList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .educationList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .educationList {
+    width: 100%;
+  }
+  .educationItem {
+    width: 300px;
+    height: 450px;
+  }
+}
