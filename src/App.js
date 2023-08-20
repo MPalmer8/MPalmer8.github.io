@@ -8,6 +8,7 @@ import Education from './pages/Education';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ExperienceDisplay from './pages/ExperienceDisplay';
+import EducationDisplay from './pages/EducationDisplay';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/experience/:id" element={<ExperienceDisplay />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/education/:id" element={<EducationDisplay />} />
       </Routes>
       <Footer />
     </Router>

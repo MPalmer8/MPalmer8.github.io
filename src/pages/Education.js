@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 function Education() {
   return <div className="educations">
     <h1 class="educationMain">My Education</h1>
+    <p><i><b>Click on each card for more information</b></i></p>
     <div className="educationList">
       {educationList.map((education, index) => {
         return (
