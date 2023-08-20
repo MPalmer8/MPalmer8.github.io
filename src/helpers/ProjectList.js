@@ -12,7 +12,7 @@ import { TbSql } from "react-icons/tb";
 export const projectList = [
     {
         name: "Greggor Financial Companion",
-        team: "Group Project (8)",
+        team: "Group Project | Team Size: 8",
         image: greggor,
         skills: "Python (Django), HTML, CSS/SCSS, JavaScript",
         logos: [<DiPython size="3rem"/>,<DiHtml5 size="3rem"/>,<DiCss3 size="3rem"/>,<DiJsBadge size="3rem"/>],
@@ -27,7 +27,7 @@ export const projectList = [
     },
     {
         name: "Music Lesson Booking System",
-        team: "Group Project (4)",
+        team: "Group Project | Team Size: 4",
         image: musiclesson,
         skills: "Python (Django), HTML, CSS",
         logos: [<DiPython size="3rem"/>,<DiHtml5 size="3rem"/>,<DiCss3 size="3rem"/>],
@@ -43,7 +43,7 @@ export const projectList = [
     },
     {
         name: "AirBnB Property Viewer",
-        team: "Group Project (4)",
+        team: "Group Project | Team Size: 4",
         image: airbnb,
         skills: "Java, Javafx",
         logos: [<DiJava size="3rem"/>],
@@ -57,7 +57,7 @@ export const projectList = [
     },
     {
         name: "Predator Prey Simulation",
-        team: "Pair Project (2)",
+        team: "Pair Project | Team Size: 2",
         image: predatorprey,
         skills: "Java, Javafx",
         logos: [<DiJava size="3rem"/>],
