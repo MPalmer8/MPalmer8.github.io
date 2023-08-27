@@ -1,11 +1,6 @@
 # Porfolio Website
-This website is my personal website that also acts as my portolio
+This is my portfolio website, it highlights the projects that I have embarked on, the experience I have gained, and my education.
+Made using React, HTML, and CSS. 
 
-# Projects
-Here, you can view all of the projects that I have worked on
+Website Link: https://mpalmer8.github.io/
 
-# Experience
-Here, you can view my experience
-
-# Education
-Here, you can view my education
