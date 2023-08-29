@@ -16,7 +16,7 @@ function Footer() {
         <Link href="https://github.com/MPalmer8" target="_blank">
           <GitHubIcon />
         </Link>
-        <Link href="/download/cv.pdf" target="_blank" download><DescriptionIcon /></Link>
+        <Link href="/download/matthew-palmer-cv.pdf" target="_blank"><DescriptionIcon /></Link>
     </div>
     <p> &copy; 2023 Matthew Palmer</p>
   </div>;
