@@ -80,6 +80,7 @@
 
 .aboutmebox p {
   font-size: 20px;
+  color: #737884;
 }
 
 .skillsbox {
@@ -99,10 +100,12 @@
 
 .skillsbox p {
   font-size: 20px;
+  color: #737884;
 }
 
 .skillsbox li {
   font-weight: bolder;
+  color: #737884;
 }
 
 @media only screen and (max-width: 1240px) {
