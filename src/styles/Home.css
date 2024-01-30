@@ -64,6 +64,11 @@
   align-items: center;
 }
 
+.aboutme h2{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .aboutmebox {
   float: left;
   width: 700px;
@@ -114,6 +119,10 @@
   .about .prompt {
     width: 80%;
     font-size: 30px;
+  }
+
+  .skillsbox {
+    width: 700px;
   }
 }
 
@@ -184,4 +193,9 @@
   .aboutmebox {
     width: 350px;
   }
+
+  .skillsbox {
+    width: 350px;
+  }
+
 }

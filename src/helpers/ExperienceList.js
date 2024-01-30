@@ -1,8 +1,21 @@
 import LSC from "../assets/education/LSC.png";
 import brightnetwork from "../assets/experience/brightnetwork.jpg"
 import barclays from "../assets/experience/Barclays.jpg"
+import KCL from "../assets/experience/KCL.jpg"
 
 export const experienceList = [
+    {
+        name: "King's College London",
+        image: KCL,
+        time: "Sept 2023 - Present",
+        role: "Teaching Assistant",
+        responsibilities: [
+            "Delivering and leading small group tutorial (seminar) sessions which require running classroom-based activities without lecturer supervision",
+            "Collaboratively working with lecturers and other teaching assistants to ensure module success and student understanding of module content",
+            "Actively assisting students with any queries about the content, module, or course",
+            "Modules covered include Software Engineering Group Project and Programming Language Design Paradigms"
+        ]
+    },
     {
         name: "Internship Experience UK",
         image: brightnetwork,
