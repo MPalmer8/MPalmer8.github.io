@@ -5,11 +5,44 @@ import joke from "../assets/projects/joke.png"
 import weather from "../assets/projects/weather.png"
 import lush from "../assets/projects/lush.PNG"
 import airbnb from "../assets/projects/AirBnB.PNG"
+import portfolio from "../assets/projects/portfolio.PNG"
+import fun from "../assets/projects/fun.PNG"
 
-import { DiPython, DiHtml5, DiCss3, DiPhp, DiJava, DiJsBadge } from "react-icons/di";
+import { DiPython, DiHtml5, DiCss3, DiPhp, DiJava, DiJsBadge, DiReact, DiScala } from "react-icons/di";
 import { TbSql } from "react-icons/tb";
 
 export const projectList = [
+    {
+        name: "FUN Complier",
+        team: "Solo Project",
+        image: fun,
+        skills: "Scala",
+        logos: [<DiScala size="3rem"/>],
+        repo: "",
+        site: "",
+        description: [
+            "Developed a complier in order to run programs on a self-defined programming language called FUN",
+            "Defined a lexer in order to generate tokens for a given FUN program, a grammar to define the syntax of the FUN language, and a parser to help define the semantics of the FUN programming language.",
+            "Implemented a typing environment to ensure that the FUN language is strongly typed",
+            "This complier targets the LLVM-IR in order to generate machine code based on the architecture of the target machine. In order to use the LLVM-IR, the abstract syntax trees generated have to be put into Static Single-Assignment format",
+            "From this project, I have learnt important features of complier translation and how they operate. These include grammars, parsers, and lexers. I have improved my understanding of the underlying technologies of modern programming languages, including why they behave in the ways that they do, the importance of unambiguous grammar, the way syntax is defined, and more"
+        ]
+    },
+    {
+        name: "Portfolio Website",
+        team: "Solo Project",
+        image: portfolio,
+        skills: "JavaScript, React, HTML, CSS",
+        logos: [<DiJsBadge size="3rem"/>, <DiReact size="3rem"/>,<DiHtml5 size="3rem"/>,<DiCss3 size="3rem"/>],
+        repo: "https://github.com/MPalmer8/MPalmer8.github.io",
+        site: "https://mpalmer8.github.io/",
+        description: [
+            "Planned and developed a website to showcase my projects, experience, and education",
+            "Learnt the importance of effective project planning, clean code for easy maintenance, and modularization",
+            "Sections include an 'About me' section which includes details about myself, a 'Project' section to highlight the projects that I have undertaken, an 'Experience' section to show any relevant experience, and an 'Education' section to highlight the courses I have completed.",
+            "Use of the JavaScript framework React that was self-taught, and the use of GitHub for version control"
+        ]
+    },
     {
         name: "Greggor Financial Companion",
         team: "Group Project | Team Size: 8",

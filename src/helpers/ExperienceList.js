@@ -2,6 +2,8 @@ import LSC from "../assets/education/LSC.png";
 import brightnetwork from "../assets/experience/brightnetwork.jpg"
 import barclays from "../assets/experience/Barclays.jpg"
 import KCL from "../assets/experience/KCL.jpg"
+import bloomberg from "../assets/experience/bloomberg.jpg"
+import kcltech from "../assets/experience/kcltech.png"
 
 export const experienceList = [
     {
@@ -17,12 +19,33 @@ export const experienceList = [
         ]
     },
     {
+        name: "HackLondon 2024 Hackathon",
+        image: kcltech,
+        time: "March 2024",
+        role: "Participant",
+        responsibilities: [
+            "Attended HackKing 2024 which was a Hackathon organised by KCL Technology Society, UCL Technology Society, and UCL Computer Science Society",
+            "Developed a task tracking application based on the theme of productivity focused on wellbeing",
+            "Users are able to gain a better understanding of where their time is spent by using the in-application visualisations",
+            "Gamification element by providing unlockable levels by gaining points through task completion, alongside a story surrounding our mascot, Greggor"
+        ]
+    },
+    {
+        name: "Bloomberg BPuzzled",
+        image: bloomberg,
+        time: "Jan 2024",
+        role: "Participant",
+        responsibilities: [
+            "BPuzzled is a competition created by Bloomberg engineers where participants use creative problem solving to solve challenging, logical puzzles"
+        ]
+    },
+    {
         name: "Internship Experience UK",
         image: brightnetwork,
         time: "June 2023",
         role: "Intern",
         responsibilities: [
-            "Worked on a brief set out my Lloyd's Banking Group to help Small to Medium Enterprises meet their net zero emission goals",
+            "Worked on a brief set out by Lloyd's Banking Group to help Small to Medium Enterprises meet their net zero emission goals",
             "Came up with an idea for a forums based application to allow business owners to find information regarding how to achieve this target",
             "Attended talks from companies such as Lloyd's Banking Group, Google, Amazon, PwC, P&G, Bloomberg, Reply, UBS, Dyson, and more, which covered topics such as teamwork, networking, typical day as a software engineer, interview tips, commercial awareness, public speaking, graduate experiences, and more"
         ]
