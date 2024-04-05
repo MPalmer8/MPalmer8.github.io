@@ -51,7 +51,7 @@ function Home() {
         }}
     >
       <div className="skills">
-        <h1>About</h1>
+        <h1></h1>
       </div>
     </motion.div>
     <div className="aboutme">
