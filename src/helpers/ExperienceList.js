@@ -4,12 +4,23 @@ import barclays from "../assets/experience/Barclays.jpg"
 import KCL from "../assets/experience/KCL.jpg"
 import bloomberg from "../assets/experience/bloomberg.jpg"
 import kcltech from "../assets/experience/kcltech.png"
+import samsung from "../assets/experience/Samsung.jpg"
 
 export const experienceList = [
     {
+        name: "Samsung Cambridge Solution Centre",
+        image: samsung,
+        time: "Sept 2024 - Present",
+        role: "Engineer",
+        responsibilities: [
+            "Member of the CI/CD Team",
+            "Use of Python, Bash, Jenkins, and Groovy"
+        ]
+    },
+    {
         name: "King's College London",
         image: KCL,
-        time: "Sept 2023 - Present",
+        time: "Sept 2023 - July 2024",
         role: "Teaching Assistant",
         responsibilities: [
             "Delivering and leading small group tutorial (seminar) sessions which require running classroom-based activities without lecturer supervision",

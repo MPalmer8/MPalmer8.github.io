@@ -9,8 +9,10 @@ export const educationList = [
         image: KCL,
         time: "2021 - 2024",
         course: "BSc (Hons) Computer Science",
-        grade: "",
-        gradeList: []
+        grade: "First Class Honours",
+        gradeList: [
+            "Overall: First Class Honours (1:1)"
+        ]
     },
     {
         name: "Leyton Sixth Form College",

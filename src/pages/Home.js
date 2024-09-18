@@ -21,7 +21,7 @@ function Home() {
             exit={{opacity: 0, y: 20}}
         >
           <p>
-            An aspiring Software Engineer currently in his 3rd year of BSc (Hons) Computer Science @ King's College London
+            Software Engineer | Computer Science Graduate
           </p>
         </motion.div>
         <motion.div
@@ -67,10 +67,10 @@ function Home() {
       >
         <div className="aboutmebox">
           <h2>About me</h2>
-          <p>My name is Matthew, I am currently in my 3rd year of university studies embarking on a BSc (Hons) Computer Science course at my chosen university of King's College London, or KCL for short. I have a keen passion for technology and software engineering which has led me to create projects and gain various experiences within the sector.</p>
+          <p>My name is Matthew, I am currently a computer science graduate working as an Engineer at Samsung. I have a keen passion for technology and software engineering which has led me to create projects and gain various experiences within the sector.</p>
           <p>Throughout my educational career, and in my free time, I have embarked on and completed many projects. Many of them can be found on my <Link href="/#/projects">Projects</Link> page. They have helped me learn, and put into a practice, a wealth of skills, which have been listed on my skills section. I also have pages for my <Link href="/#/experience">Experience</Link>, and <Link href="/#/education">Education</Link>. </p>
-          <p>When I am not completing university assignments or coding, I enjoy spending my free time doing various other activities. One of these activities is playing video games; I joined KCL's Gaming and E-Sports society where I compete in <Link href="https://thenuel.com/" target="_blank">NUEL</Link> and <Link href="https://www.nse.gg/" target="_blank">NSE</Link> tournaments by being a member and captain of one of KCL's various Rocket League teams, this has allowed me to follow one of my other passions whilst being in an environment where I can learn more about leadership, collaboration, teamwork, analysis, and determination. I currently have a spot on the committee of this society, where I am in charge of the Minecraft portion of the society where I host events and generally collaborate with others.</p>
-          <p>Another way that I enjoy spending my free time is by watching TV shows and Movies, with Avatar the Last Airbender, Interstellar, Marvel, and Star Wars being amongst my favourite. I occasionally take part in sports such as Badminton and Table Tennis, but my go-to physical activity to feel refreshed is walking.</p>
+          <p>I enjoy various hobbies, such as gaming, sports, and more. I hope you have a good time on my website, if you have any queries, feel free to reach out (My LinkedIn is at the bottom of the page). Further contact details can be found on my CV!</p>
+          <p>Thanks!</p>
         </div>
       </motion.div>
       <motion.div
