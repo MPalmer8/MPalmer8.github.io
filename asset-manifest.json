@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.120570d4.css",
-    "main.js": "/static/js/main.515fb55e.js",
+    "main.js": "/static/js/main.c291e5bf.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/musiclesson.PNG": "/static/media/musiclesson.08a8488c43a392a895a0.PNG",
     "static/media/lush.PNG": "/static/media/lush.f0c5e782f1adcccd44df.PNG",
@@ -13,6 +13,7 @@
     "static/media/portfolio.PNG": "/static/media/portfolio.128094d1ce34cc4d54b3.PNG",
     "static/media/greggor.PNG": "/static/media/greggor.fccda2af49f190fd1968.PNG",
     "static/media/KCL.jpg": "/static/media/KCL.245abb296180f12e250b.jpg",
+    "static/media/Samsung.jpg": "/static/media/Samsung.9ff3d30d8bc2cade4c8e.jpg",
     "static/media/leytonstone.jpg": "/static/media/leytonstone.5643a4b76fc8f054a5ac.jpg",
     "static/media/Barclays.jpg": "/static/media/Barclays.285c4a9f7234870e11a6.jpg",
     "static/media/joke.png": "/static/media/joke.dfd5a8fd8e22721b803a.png",
@@ -20,11 +21,11 @@
     "static/media/LSC.png": "/static/media/LSC.3fe2a71121d4d57d3863.png",
     "index.html": "/index.html",
     "main.120570d4.css.map": "/static/css/main.120570d4.css.map",
-    "main.515fb55e.js.map": "/static/js/main.515fb55e.js.map",
+    "main.c291e5bf.js.map": "/static/js/main.c291e5bf.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.120570d4.css",
-    "static/js/main.515fb55e.js"
+    "static/js/main.c291e5bf.js"
   ]
 }
