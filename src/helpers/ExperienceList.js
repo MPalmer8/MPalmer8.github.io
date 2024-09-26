@@ -13,8 +13,11 @@ export const experienceList = [
         time: "Sept 2024 - Present",
         role: "Engineer",
         responsibilities: [
-            "Member of the CI/CD Team",
-            "Use of Python, Bash, Jenkins, and Groovy"
+            "Use of Python and Bash to automate company processes to speed up company efficiency",
+            "Working in a team environment using the agile scrum development methodology",
+            "Contributing to the success of the team through regular, daily standup meetings to ensure that development is on target throughout two-week sprints",
+            "Daily use of git + Gerrit for version control management, Jira ticketing system, and confluence for documentation",
+            "Use of Jenkins for CI/CD pipelines to ensure code is deployed in a tested and efficient manner"
         ]
     },
     {
