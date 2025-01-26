@@ -64,7 +64,7 @@ export const projectList = [
         image: musiclesson,
         skills: "Python (Django), HTML, CSS",
         logos: [<DiPython size="3rem"/>,<DiHtml5 size="3rem"/>,<DiCss3 size="3rem"/>],
-        repo: "https:/github.com/Jiale-Yang/Moose",
+        repo: "https://github.com/Jiale-Yang/Moose",
         site: "",
         description: [
             "Developed a Music School Web-Based Application which is an innovative digital platform designed to streamline the process of requesting music lessons for both parents and pupils while providing school administrators with efficient tools to manage and fulfill these requests. The application aims to enhance communication, improve scheduling, and optimize the overall learning experience for students attending the music school.",
